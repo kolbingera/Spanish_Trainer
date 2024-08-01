@@ -1,0 +1,18 @@
+﻿@using System.Net.Http.Json
+@using MudBlazor.Examples.Data.Models
+@inject HttpClient httpClient
+
+<h3>Dictionary</h3>
+<h1>These are all the words in the database:</h1>
+
+<MudTable Items="@Elements.Take(2)" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+
+
+
+
+</MudTable>
+
+@code {
+
+}
+s

@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{215C3F43-8535-4AC8-B0C0-1CD01A4887BE}|ElGatoConBotas\\ElGatoConBotas.csproj|c:\\users\\kolbingera\\desktop\\spanish_trainer\\elgatoconbotas\\elgatoconbotas\\components\\pages\\dictionary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{215C3F43-8535-4AC8-B0C0-1CD01A4887BE}|ElGatoConBotas\\ElGatoConBotas.csproj|solutionrelative:elgatoconbotas\\components\\pages\\dictionary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215C3F43-8535-4AC8-B0C0-1CD01A4887BE}|ElGatoConBotas\\ElGatoConBotas.csproj|c:\\users\\kolbingera\\desktop\\spanish_trainer\\elgatoconbotas\\elgatoconbotas\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215C3F43-8535-4AC8-B0C0-1CD01A4887BE}|ElGatoConBotas\\ElGatoConBotas.csproj|solutionrelative:elgatoconbotas\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215C3F43-8535-4AC8-B0C0-1CD01A4887BE}|ElGatoConBotas\\ElGatoConBotas.csproj|c:\\users\\kolbingera\\desktop\\spanish_trainer\\elgatoconbotas\\elgatoconbotas\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{215C3F43-8535-4AC8-B0C0-1CD01A4887BE}|ElGatoConBotas\\ElGatoConBotas.csproj|solutionrelative:elgatoconbotas\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215C3F43-8535-4AC8-B0C0-1CD01A4887BE}|ElGatoConBotas\\ElGatoConBotas.csproj|c:\\users\\kolbingera\\desktop\\spanish_trainer\\elgatoconbotas\\elgatoconbotas\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{215C3F43-8535-4AC8-B0C0-1CD01A4887BE}|ElGatoConBotas\\ElGatoConBotas.csproj|solutionrelative:elgatoconbotas\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215C3F43-8535-4AC8-B0C0-1CD01A4887BE}|ElGatoConBotas\\ElGatoConBotas.csproj|c:\\users\\kolbingera\\desktop\\spanish_trainer\\elgatoconbotas\\elgatoconbotas\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215C3F43-8535-4AC8-B0C0-1CD01A4887BE}|ElGatoConBotas\\ElGatoConBotas.csproj|solutionrelative:elgatoconbotas\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215C3F43-8535-4AC8-B0C0-1CD01A4887BE}|ElGatoConBotas\\ElGatoConBotas.csproj|c:\\users\\kolbingera\\desktop\\spanish_trainer\\elgatoconbotas\\elgatoconbotas\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{215C3F43-8535-4AC8-B0C0-1CD01A4887BE}|ElGatoConBotas\\ElGatoConBotas.csproj|solutionrelative:elgatoconbotas\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "ElGatoConBotas\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\MauiProgram.cs",
+              "RelativeToolTip": "ElGatoConBotas\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:28:25.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "ElGatoConBotas\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\Components\\_Imports.razor",
+              "RelativeToolTip": "ElGatoConBotas\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T08:25:22.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dictionary.razor",
+              "DocumentMoniker": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\Components\\Pages\\dictionary.razor",
+              "RelativeDocumentMoniker": "ElGatoConBotas\\Components\\Pages\\dictionary.razor",
+              "ToolTip": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\Components\\Pages\\dictionary.razor",
+              "RelativeToolTip": "ElGatoConBotas\\Components\\Pages\\dictionary.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T08:22:56.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\App.xaml",
+              "RelativeDocumentMoniker": "ElGatoConBotas\\App.xaml",
+              "ToolTip": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\App.xaml",
+              "RelativeToolTip": "ElGatoConBotas\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-01T08:21:45.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ElGatoConBotas\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\App.xaml.cs",
+              "RelativeToolTip": "ElGatoConBotas\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:21:43.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "ElGatoConBotas\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "ElGatoConBotas\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T07:40:18.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
