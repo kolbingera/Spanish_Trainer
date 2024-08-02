@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElGatoConBotas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8545ac32548408084e1e423b8917e4a7a63b0af6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElGatoConBotas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElGatoConBotas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
