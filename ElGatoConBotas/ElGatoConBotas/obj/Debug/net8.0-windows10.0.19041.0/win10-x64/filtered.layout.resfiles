@@ -54,7 +54,6 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
-naruto.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png
@@ -64,9 +63,10 @@ wwwroot\ElGatoConBotas.styles.css
 wwwroot\ElGatoConBotas.bundle.scp.css
 AboutAssets.txt
 wwwroot\css\app.css
+wwwroot\css\book.svg
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\db\SpanishVocabDb.db
 wwwroot\favicon.png
 wwwroot\Images\dotnet_bot.svg
-wwwroot\Images\naruto.png
 wwwroot\index.html

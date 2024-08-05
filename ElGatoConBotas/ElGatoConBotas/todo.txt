@@ -1,0 +1,17 @@
+-add/remove vocab site
+    public void AddVocabulary(vocabulary chosenVocabulary)
+    {
+        DbContext.Vocabularies.Add(chosenVocabulary);
+        DbContext.SaveChanges();
+    }
+
+-display all vocabs in dictionary
+
+-set vocabs to easy/hard
+-> sort them         vocabularies = DbContext.Vocabularies.Where(p => p.IsHardToRemember).ToList();
+
+
+-exam mode where 20 vocabs are asked within a certain time frame, user input via keyboard /touch keyboard
+             points are saved in db
+
+-login for users

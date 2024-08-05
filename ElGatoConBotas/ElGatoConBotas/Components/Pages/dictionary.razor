@@ -1,37 +1,49 @@
 ﻿@page "/dictionary"
-@using System.Net.Http.Json
+@using ElGatoConBotas.Database
 @using ElGatoConBotas.Domain.Entities
-
-@inject HttpClient httpClient
+@using Microsoft.EntityFrameworkCore
+@inject AppDbContext DbContext
 
 <h3>Dictionary</h3>
 <h1>These are all the words in the database:</h1>
 
-<MudTable Items="@Elements.Take(2)" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
-    <HeaderContent>
-        <MudTh>Id</MudTh>
-        <MudTh>Spanish_Expression </MudTh>
-        <MudTh>German_Expression </MudTh>
-    </HeaderContent>
-    <RowTemplate>
-        <MudTh DataLabel="Id"> @context.Id</MudTh>
-        <MudTh DataLabel="Spanish_Expression"> @context.Spanish_Expression</MudTh>
-        <MudTh DataLabel="German_Expression"> @context.German_Expression</MudTh>
-    </RowTemplate>
-   
-</MudTable>
-   <MudSwitch @bind-Value="_hidePosition">Hide <b>position</b> when Breakpoint=Xs</MudSwitch>
-<MudSwitch @bind-Value="_loading">Show Loading</MudSwitch>
-
+<style>
+table, th, td {
+  border:1px solid black;
+  text-align:left;
+  font-family:Arial;
+  width:50%;
+ 
+}
+</style>
+<table>
+    <tr>
+        <th>Spanish</th>
+        <th>German</th>
+        
+    </tr>
+    @foreach (var vocabulary in vocabularies)
+    {
+        <tr>
+            <td>@vocabulary.Spanish_Expression</td>
+            <td>@vocabulary.German_Expression</td>
+       
+    </tr>
+    }
+  
+</table>
 
 
 @code {
-    private bool _hidePosition;
-    private bool _loading;
-    private IEnumerable<Element> Elements = new List<Element>();
+    List<Vocabulary> vocabularies;
 
-    protected override async Task OnInitializedAsync()
+    protected override void OnInitialized()
     {
-        Elements = await httpClient.GetFromJsonAsync<List<Element>>("webapi/periodictable");
+        vocabularies = DbContext.Vocabularies.ToList();
     }
+
+
+
+
+
 }

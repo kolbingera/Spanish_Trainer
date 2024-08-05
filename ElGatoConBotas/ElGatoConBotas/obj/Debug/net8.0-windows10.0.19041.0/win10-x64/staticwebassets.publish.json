@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y2jYYmuDUndKWCOFaZn8hpUMQO9ZdxspoFD4xSArpDU=",
+  "Hash": "qiyYft/zCAODj0SlsTU+dEBCEoInS2u1gpPmFK7JnMI=",
   "Source": "ElGatoConBotas",
   "BasePath": "/",
   "Mode": "Root",
@@ -112,6 +112,25 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
+      "Identity": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\css\\book.svg",
+      "SourceId": "ElGatoConBotas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/book.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\book.svg"
+    },
+    {
       "Identity": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "ElGatoConBotas",
       "SourceType": "Discovered",
@@ -150,6 +169,25 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\db\\SpanishVocabDb.db",
+      "SourceId": "ElGatoConBotas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "db/SpanishVocabDb.db",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\db\\SpanishVocabDb.db"
+    },
+    {
       "Identity": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\favicon.png",
       "SourceId": "ElGatoConBotas",
       "SourceType": "Discovered",
@@ -186,25 +224,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\dotnet_bot.svg"
-    },
-    {
-      "Identity": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\Images\\naruto.png",
-      "SourceId": "ElGatoConBotas",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "Images/naruto.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\naruto.png"
     },
     {
       "Identity": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\index.html",

@@ -9,12 +9,12 @@
       "PackagePath": "staticwebassets\\Images\\dotnet_bot.svg"
     },
     {
-      "Id": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\Images\\naruto.png",
-      "PackagePath": "staticwebassets\\Images\\naruto.png"
-    },
-    {
       "Id": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\css\\book.svg",
+      "PackagePath": "staticwebassets\\css\\book.svg"
     },
     {
       "Id": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -23,6 +23,10 @@
     {
       "Id": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\db\\SpanishVocabDb.db",
+      "PackagePath": "staticwebassets\\db\\SpanishVocabDb.db"
     },
     {
       "Id": "C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\favicon.png",

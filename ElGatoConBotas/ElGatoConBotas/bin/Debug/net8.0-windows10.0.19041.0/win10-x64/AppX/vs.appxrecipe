@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-08-02T05:20:05.305</Modified>
+      <Modified>2024-08-05T08:22:05.366</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-08-01T13:08:05.438</Modified>
+      <Modified>2024-08-02T09:15:34.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ElGatoConBotas.runtimeconfig.json">
       <PackagePath>ElGatoConBotas.runtimeconfig.json</PackagePath>
-      <Modified>2024-08-01T13:11:00.911</Modified>
+      <Modified>2024-08-02T09:15:34.014</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ElGatoConBotas.dll">
       <PackagePath>ElGatoConBotas.dll</PackagePath>
-      <Modified>2024-08-02T05:17:40.319</Modified>
+      <Modified>2024-08-05T08:22:05.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ElGatoConBotas.exe</PackagePath>
-      <Modified>2024-08-02T05:17:40.502</Modified>
+      <Modified>2024-08-05T08:22:05.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -57,6 +57,10 @@
       <PackagePath>wwwroot\css\app.css</PackagePath>
       <Modified>2024-08-01T07:40:14.667</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\wwwroot\css\book.svg">
+      <PackagePath>wwwroot\css\book.svg</PackagePath>
+      <Modified>2024-08-02T08:05:56.419</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
       <Modified>2024-08-01T07:40:14.668</Modified>
@@ -64,6 +68,10 @@
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\wwwroot\css\bootstrap\bootstrap.min.css.map">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
       <Modified>2024-08-01T07:40:14.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\wwwroot\db\SpanishVocabDb.db">
+      <PackagePath>wwwroot\db\SpanishVocabDb.db</PackagePath>
+      <Modified>2024-08-05T06:03:07.967</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
@@ -73,13 +81,9 @@
       <PackagePath>wwwroot\Images\dotnet_bot.svg</PackagePath>
       <Modified>2024-08-01T07:40:14.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\wwwroot\Images\naruto.png">
-      <PackagePath>wwwroot\Images\naruto.png</PackagePath>
-      <Modified>2024-05-14T13:24:37.058</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
-      <Modified>2024-08-01T07:40:14.665</Modified>
+      <Modified>2024-08-02T08:32:05.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
@@ -107,215 +111,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-08-01T13:06:19.602</Modified>
+      <Modified>2024-08-02T08:06:46.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.585</Modified>
+      <Modified>2024-08-02T08:06:46.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.585</Modified>
+      <Modified>2024-08-02T08:06:46.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.584</Modified>
+      <Modified>2024-08-02T08:06:46.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.584</Modified>
+      <Modified>2024-08-02T08:06:46.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.583</Modified>
+      <Modified>2024-08-02T08:06:46.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.596</Modified>
+      <Modified>2024-08-02T08:06:46.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.595</Modified>
+      <Modified>2024-08-02T08:06:46.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.593</Modified>
+      <Modified>2024-08-02T08:06:46.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.595</Modified>
+      <Modified>2024-08-02T08:06:46.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.594</Modified>
+      <Modified>2024-08-02T08:06:46.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.598</Modified>
+      <Modified>2024-08-02T08:06:46.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.598</Modified>
+      <Modified>2024-08-02T08:06:46.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.596</Modified>
+      <Modified>2024-08-02T08:06:46.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.597</Modified>
+      <Modified>2024-08-02T08:06:46.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.597</Modified>
+      <Modified>2024-08-02T08:06:46.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.602</Modified>
+      <Modified>2024-08-02T08:06:46.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.602</Modified>
+      <Modified>2024-08-02T08:06:46.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.601</Modified>
+      <Modified>2024-08-02T08:06:46.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.601</Modified>
+      <Modified>2024-08-02T08:06:46.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.600</Modified>
+      <Modified>2024-08-02T08:06:46.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.600</Modified>
+      <Modified>2024-08-02T08:06:46.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.600</Modified>
+      <Modified>2024-08-02T08:06:46.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.599</Modified>
+      <Modified>2024-08-02T08:06:46.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.599</Modified>
+      <Modified>2024-08-02T08:06:46.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.599</Modified>
+      <Modified>2024-08-02T08:06:46.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.589</Modified>
+      <Modified>2024-08-02T08:06:46.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.588</Modified>
+      <Modified>2024-08-02T08:06:46.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.588</Modified>
+      <Modified>2024-08-02T08:06:46.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.588</Modified>
+      <Modified>2024-08-02T08:06:46.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.587</Modified>
+      <Modified>2024-08-02T08:06:46.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.591</Modified>
+      <Modified>2024-08-02T08:06:46.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.590</Modified>
+      <Modified>2024-08-02T08:06:46.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.590</Modified>
+      <Modified>2024-08-02T08:06:46.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.589</Modified>
+      <Modified>2024-08-02T08:06:46.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.589</Modified>
+      <Modified>2024-08-02T08:06:46.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.593</Modified>
+      <Modified>2024-08-02T08:06:46.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.592</Modified>
+      <Modified>2024-08-02T08:06:46.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.592</Modified>
+      <Modified>2024-08-02T08:06:46.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.592</Modified>
+      <Modified>2024-08-02T08:06:46.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.591</Modified>
+      <Modified>2024-08-02T08:06:46.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.587</Modified>
+      <Modified>2024-08-02T08:06:46.650</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.587</Modified>
+      <Modified>2024-08-02T08:06:46.650</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.586</Modified>
+      <Modified>2024-08-02T08:06:46.650</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.586</Modified>
+      <Modified>2024-08-02T08:06:46.650</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.585</Modified>
+      <Modified>2024-08-02T08:06:46.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.604</Modified>
+      <Modified>2024-08-02T08:06:46.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.604</Modified>
+      <Modified>2024-08-02T08:06:46.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.603</Modified>
+      <Modified>2024-08-02T08:06:46.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.603</Modified>
+      <Modified>2024-08-02T08:06:46.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.603</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\naruto.scale-100.png">
-      <PackagePath>naruto.scale-100.png</PackagePath>
-      <Modified>2024-08-01T13:06:19.583</Modified>
+      <Modified>2024-08-02T08:06:46.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ElGatoConBotas.deps.json">
       <PackagePath>ElGatoConBotas.deps.json</PackagePath>
-      <Modified>2024-08-01T13:11:00.858</Modified>
+      <Modified>2024-08-02T09:15:33.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -353,6 +353,34 @@
       <PackagePath>Microsoft.AspNetCore.Metadata.dll</PackagePath>
       <Modified>2024-05-20T04:23:40.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.data.sqlite.core\8.0.7\lib\net8.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+      <Modified>2024-06-14T16:02:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.entityframeworkcore\8.0.7\lib\net8.0\Microsoft.EntityFrameworkCore.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
+      <Modified>2024-06-14T16:02:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.entityframeworkcore.abstractions\8.0.7\lib\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
+      <Modified>2024-06-14T16:02:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.entityframeworkcore.relational\8.0.7\lib\net8.0\Microsoft.EntityFrameworkCore.Relational.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
+      <Modified>2024-06-14T16:03:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\8.0.7\lib\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Sqlite.dll</PackagePath>
+      <Modified>2024-06-14T16:04:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.extensions.caching.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Caching.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
+      <Modified>2023-10-31T14:58:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.extensions.caching.memory\8.0.0\lib\net8.0\Microsoft.Extensions.Caching.Memory.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
+      <Modified>2023-10-31T14:59:34.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2023-10-31T14:59:20.000</Modified>
@@ -380,6 +408,10 @@
     <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.1\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
       <Modified>2024-02-14T23:51:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.extensions.dependencymodel\8.0.1\lib\net8.0\Microsoft.Extensions.DependencyModel.dll">
+      <PackagePath>Microsoft.Extensions.DependencyModel.dll</PackagePath>
+      <Modified>2024-06-13T19:36:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.extensions.fileproviders.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.FileProviders.Abstractions.dll</PackagePath>
@@ -529,6 +561,26 @@
       <PackagePath>MudBlazor.dll</PackagePath>
       <Modified>2024-07-31T20:13:14.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\npgsql\8.0.3\lib\net8.0\Npgsql.dll">
+      <PackagePath>Npgsql.dll</PackagePath>
+      <Modified>2024-05-09T13:45:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\npgsql.entityframeworkcore.postgresql\8.0.4\lib\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll">
+      <PackagePath>Npgsql.EntityFrameworkCore.PostgreSQL.dll</PackagePath>
+      <Modified>2024-05-11T16:08:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\sqlitepclraw.bundle_e_sqlite3\2.1.6\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2023-08-23T18:41:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\sqlitepclraw.core\2.1.6\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2023-08-23T18:38:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.6\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2023-08-23T18:38:52.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\system.io.pipelines\8.0.0\lib\net8.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
       <Modified>2023-10-31T14:59:26.000</Modified>
@@ -677,6 +729,10 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-07T06:05:24.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2023-08-23T18:33:44.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.maui.controls.compatibility\8.0.71\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
       <Modified>2024-07-25T22:39:34.000</Modified>
@@ -699,11 +755,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\ElGatoConBotas.styles.css">
       <PackagePath>wwwroot\ElGatoConBotas.styles.css</PackagePath>
-      <Modified>2024-08-01T13:15:23.207</Modified>
+      <Modified>2024-08-02T08:34:16.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\ElGatoConBotas.bundle.scp.css">
       <PackagePath>wwwroot\ElGatoConBotas.bundle.scp.css</PackagePath>
-      <Modified>2024-08-01T13:15:23.210</Modified>
+      <Modified>2024-08-02T08:34:16.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
@@ -711,7 +767,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\Components\Layout\NavMenu.razor.css">
       <PackagePath>Components\Layout\NavMenu.razor.css</PackagePath>
-      <Modified>2024-08-01T13:15:21.529</Modified>
+      <Modified>2024-08-02T08:34:16.000</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
