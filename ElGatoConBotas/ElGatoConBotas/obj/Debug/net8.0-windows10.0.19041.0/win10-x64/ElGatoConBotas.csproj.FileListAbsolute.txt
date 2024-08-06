@@ -222,3 +222,4 @@ C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\De
 C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
 C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
+C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Dialogs\EditVocabDialog.razor.rz.scp.css

@@ -3,7 +3,10 @@
 @using ElGatoConBotas.Services
 @using ElGatoConBotas.Domain.Interfaces
 @inject IVocabService vocabService
+@using ElGatoConBotas.Components
+@inject IDialogService DialogService
 @using MudBlazor
+@using ElGatoConBotas.Components.Dialogs
 
 <h3>Dictionary</h3>
 <h1>These are all the words in the database:</h1>
@@ -19,6 +22,7 @@
 
 <table>
     <tr>
+         
         <th>Spanish</th>
         <th>German</th>
         <th>Actions</th>
@@ -31,29 +35,49 @@
                 <td>@vocabulary.Spanish_Expression</td>
                 <td>@vocabulary.German_Expression</td>
                 <td>
-                    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="() => EditEntry(vocabulary)">Edit</MudButton>
                     <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="() => DeleteEntry(vocabulary)">Delete</MudButton>
+                    
+                 
                 </td>
             </tr>
         }
     }
 </table>
 
-<MudDialog @bind-IsVisible="_isEditDialogVisible">
-    <DialogContent>
-        <MudTextField T="string" Label="Spanish Expression" @bind-Value="editingVocabulary.Spanish_Expression"></MudTextField>
-        <MudTextField T="string" Label="German Expression" @bind-Value="editingVocabulary.German_Expression"></MudTextField>
-    </DialogContent>
-    <DialogActions>
-        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="SaveChanges">Save</MudButton>
-        <MudButton Variant="Variant.Outlined" Color="Color.Secondary" OnClick="CloseEditDialog">Cancel</MudButton>
-    </DialogActions>
-</MudDialog>
+
+
+<MudDialogProvider />
+<MudButton @onclick="OpenDialogAsync" Variant="Variant.Filled" Color="Color.Primary">
+    Edit Entry
+</MudButton>
+
 
 @code {
     private List<Vocabulary> vocabularies;
-    private Vocabulary editingVocabulary;
-    private bool _isEditDialogVisible = false;
+
+
+
+
+
+
+    private Task OpenDialogAsync()
+    {
+        var options = new DialogOptions(); 
+
+        return DialogService.ShowAsync<MudDialog>("Edit Entry", options);
+    }
+ 
+
+    public void DeleteEntry(Vocabulary chosenVocabulary)
+    {
+        vocabService.RemoveVocabulary(chosenVocabulary);
+        vocabularies = vocabService.GetVocabularies();
+    }
+
+
+
+
+
 
     protected override void OnInitialized()
     {
@@ -67,33 +91,6 @@
             vocabularies = new List<Vocabulary>();
         }
     }
+    
 
-    public void EditEntry(Vocabulary chosenVocabulary)
-    {
-        editingVocabulary = new Vocabulary
-            {
-                Id = chosenVocabulary.Id,
-                Spanish_Expression = chosenVocabulary.Spanish_Expression,
-                German_Expression = chosenVocabulary.German_Expression
-            };
-        _isEditDialogVisible = true;
-    }
-
-    private void SaveChanges()
-    {
-        vocabService.UpdateVocabulary(editingVocabulary);
-        _isEditDialogVisible = false;
-        vocabularies = vocabService.GetVocabularies();
-    }
-
-    private void CloseEditDialog()
-    {
-        _isEditDialogVisible = false;
-    }
-
-    public void DeleteEntry(Vocabulary chosenVocabulary)
-    {
-        vocabService.RemoveVocabulary(chosenVocabulary);
-        vocabularies = vocabService.GetVocabularies();
-    }
 }

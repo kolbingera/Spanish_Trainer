@@ -1,5 +1,6 @@
 wwwroot\_content\MudBlazor\MudBlazor.min.css
 wwwroot\_content\MudBlazor\MudBlazor.min.js
+Components\Dialogs\EditVocabDialog.razor.css
 Components\Layout\MainLayout.razor.css
 Components\Layout\NavMenu.razor.css
 OpenSans-Regular.ttf

@@ -571,6 +571,9 @@
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\ElGatoConBotas.bundle.scp.css">
       <PackagePath>wwwroot\ElGatoConBotas.bundle.scp.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\Components\Dialogs\EditVocabDialog.razor.css">
+      <PackagePath>Components\Dialogs\EditVocabDialog.razor.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
     </AppxPackagedFile>

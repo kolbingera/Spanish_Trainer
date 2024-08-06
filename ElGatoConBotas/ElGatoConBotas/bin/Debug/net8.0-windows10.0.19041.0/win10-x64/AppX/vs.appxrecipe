@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-08-06T06:26:17.328</Modified>
+      <Modified>2024-08-06T12:00:33.441</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-08-06T06:11:35.041</Modified>
+      <Modified>2024-08-06T11:48:53.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ElGatoConBotas.runtimeconfig.json">
       <PackagePath>ElGatoConBotas.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ElGatoConBotas.dll">
       <PackagePath>ElGatoConBotas.dll</PackagePath>
-      <Modified>2024-08-06T06:26:16.811</Modified>
+      <Modified>2024-08-06T12:00:33.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ElGatoConBotas.exe</PackagePath>
-      <Modified>2024-08-06T06:26:16.863</Modified>
+      <Modified>2024-08-06T12:00:33.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -71,7 +71,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\wwwroot\db\SpanishVocabDb.db">
       <PackagePath>wwwroot\db\SpanishVocabDb.db</PackagePath>
-      <Modified>2024-08-05T06:03:07.967</Modified>
+      <Modified>2024-08-06T07:01:51.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
@@ -83,7 +83,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
-      <Modified>2024-08-05T08:39:16.039</Modified>
+      <Modified>2024-08-06T11:43:26.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
@@ -315,7 +315,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ElGatoConBotas.deps.json">
       <PackagePath>ElGatoConBotas.deps.json</PackagePath>
-      <Modified>2024-08-06T06:11:34.727</Modified>
+      <Modified>2024-08-06T11:48:53.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -755,11 +755,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\ElGatoConBotas.styles.css">
       <PackagePath>wwwroot\ElGatoConBotas.styles.css</PackagePath>
-      <Modified>2024-08-02T08:34:16.612</Modified>
+      <Modified>2024-08-06T11:48:41.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\ElGatoConBotas.bundle.scp.css">
       <PackagePath>wwwroot\ElGatoConBotas.bundle.scp.css</PackagePath>
-      <Modified>2024-08-02T08:34:16.614</Modified>
+      <Modified>2024-08-06T11:48:41.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\Components\Dialogs\EditVocabDialog.razor.css">
+      <PackagePath>Components\Dialogs\EditVocabDialog.razor.css</PackagePath>
+      <Modified>2024-08-06T11:47:34.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
