@@ -14,5 +14,4 @@ namespace ElGatoConBotas.Domain.Entities
 
     }
 
-
 }

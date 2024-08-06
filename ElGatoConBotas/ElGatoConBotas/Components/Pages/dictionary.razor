@@ -1,49 +1,99 @@
 ﻿@page "/dictionary"
-@using ElGatoConBotas.Database
 @using ElGatoConBotas.Domain.Entities
-@using Microsoft.EntityFrameworkCore
-@inject AppDbContext DbContext
+@using ElGatoConBotas.Services
+@using ElGatoConBotas.Domain.Interfaces
+@inject IVocabService vocabService
+@using MudBlazor
 
 <h3>Dictionary</h3>
 <h1>These are all the words in the database:</h1>
 
 <style>
-table, th, td {
-  border:1px solid black;
-  text-align:left;
-  font-family:Arial;
-  width:50%;
- 
-}
+    table, th, td {
+        border: 1px solid black;
+        text-align: left;
+        font-family: Arial;
+        width: 50%;
+    }
 </style>
+
 <table>
     <tr>
         <th>Spanish</th>
         <th>German</th>
-        
+        <th>Actions</th>
     </tr>
-    @foreach (var vocabulary in vocabularies)
+    @if (vocabularies != null)
     {
-        <tr>
-            <td>@vocabulary.Spanish_Expression</td>
-            <td>@vocabulary.German_Expression</td>
-       
-    </tr>
+        @foreach (var vocabulary in vocabularies)
+        {
+            <tr>
+                <td>@vocabulary.Spanish_Expression</td>
+                <td>@vocabulary.German_Expression</td>
+                <td>
+                    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="() => EditEntry(vocabulary)">Edit</MudButton>
+                    <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="() => DeleteEntry(vocabulary)">Delete</MudButton>
+                </td>
+            </tr>
+        }
     }
-  
 </table>
 
+<MudDialog @bind-IsVisible="_isEditDialogVisible">
+    <DialogContent>
+        <MudTextField T="string" Label="Spanish Expression" @bind-Value="editingVocabulary.Spanish_Expression"></MudTextField>
+        <MudTextField T="string" Label="German Expression" @bind-Value="editingVocabulary.German_Expression"></MudTextField>
+    </DialogContent>
+    <DialogActions>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="SaveChanges">Save</MudButton>
+        <MudButton Variant="Variant.Outlined" Color="Color.Secondary" OnClick="CloseEditDialog">Cancel</MudButton>
+    </DialogActions>
+</MudDialog>
 
 @code {
-    List<Vocabulary> vocabularies;
+    private List<Vocabulary> vocabularies;
+    private Vocabulary editingVocabulary;
+    private bool _isEditDialogVisible = false;
 
     protected override void OnInitialized()
     {
-        vocabularies = DbContext.Vocabularies.ToList();
+        try
+        {
+            vocabularies = vocabService.GetVocabularies();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching vocabularies: {ex.Message}");
+            vocabularies = new List<Vocabulary>();
+        }
     }
 
+    public void EditEntry(Vocabulary chosenVocabulary)
+    {
+        editingVocabulary = new Vocabulary
+            {
+                Id = chosenVocabulary.Id,
+                Spanish_Expression = chosenVocabulary.Spanish_Expression,
+                German_Expression = chosenVocabulary.German_Expression
+            };
+        _isEditDialogVisible = true;
+    }
 
+    private void SaveChanges()
+    {
+        vocabService.UpdateVocabulary(editingVocabulary);
+        _isEditDialogVisible = false;
+        vocabularies = vocabService.GetVocabularies();
+    }
 
+    private void CloseEditDialog()
+    {
+        _isEditDialogVisible = false;
+    }
 
-
+    public void DeleteEntry(Vocabulary chosenVocabulary)
+    {
+        vocabService.RemoveVocabulary(chosenVocabulary);
+        vocabularies = vocabService.GetVocabularies();
+    }
 }
