@@ -3,81 +3,38 @@
 @using ElGatoConBotas.Services
 @using ElGatoConBotas.Domain.Interfaces
 @inject IVocabService vocabService
-@using ElGatoConBotas.Components
-@inject IDialogService DialogService
 @using MudBlazor
+@inject IDialogService DialogService
 @using ElGatoConBotas.Components.Dialogs
 
 <h3>Dictionary</h3>
 <h1>These are all the words in the database:</h1>
 
-<style>
-    table, th, td {
-        border: 1px solid black;
-        text-align: left;
-        font-family: Arial;
-        width: 50%;
-    }
-</style>
+<MudTable Items="vocabularies" Hover="true" Bordered="true" Striped="true">
+    <HeaderContent>
+        <MudTh Style="width:40px">Id</MudTh>
+        <MudTh>Spanish</MudTh>
+        <MudTh>German</MudTh>
+        <MudTh>Actions</MudTh>
+    </HeaderContent>
 
-<table>
-    <tr>
-         
-        <th>Spanish</th>
-        <th>German</th>
-        <th>Actions</th>
-    </tr>
-    @if (vocabularies != null)
-    {
-        @foreach (var vocabulary in vocabularies)
-        {
-            <tr>
-                <td>@vocabulary.Spanish_Expression</td>
-                <td>@vocabulary.German_Expression</td>
-                <td>
-                    <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="() => DeleteEntry(vocabulary)">Delete</MudButton>
-                    
-                 
-                </td>
-            </tr>
-        }
-    }
-</table>
-
-
+    <RowTemplate Context="vocabulary">
+        <MudTd DataLabel="Id">@vocabulary.Id</MudTd>
+        <MudTd DataLabel="Spanish">@vocabulary.Spanish_Expression</MudTd>
+        <MudTd DataLabel="German">@vocabulary.German_Expression</MudTd>
+        <MudTd DataLabel="Actions">
+            <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="() => DeleteEntry(vocabulary)">Delete</MudButton>
+        </MudTd>
+    </RowTemplate>
+</MudTable>
 
 <MudDialogProvider />
 <MudButton @onclick="OpenDialogAsync" Variant="Variant.Filled" Color="Color.Primary">
     Edit Entry
 </MudButton>
 
-
 @code {
     private List<Vocabulary> vocabularies;
-
-
-
-
-
-
-    private Task OpenDialogAsync()
-    {
-        var options = new DialogOptions(); 
-
-        return DialogService.ShowAsync<MudDialog>("Edit Entry", options);
-    }
- 
-
-    public void DeleteEntry(Vocabulary chosenVocabulary)
-    {
-        vocabService.RemoveVocabulary(chosenVocabulary);
-        vocabularies = vocabService.GetVocabularies();
-    }
-
-
-
-
-
 
     protected override void OnInitialized()
     {
@@ -91,6 +48,16 @@
             vocabularies = new List<Vocabulary>();
         }
     }
-    
 
+    private Task OpenDialogAsync()
+    {
+        var options = new DialogOptions();
+        return DialogService.ShowAsync<MudDialog>("Edit Entry", options);
+    }
+
+    public void DeleteEntry(Vocabulary chosenVocabulary)
+    {
+        vocabService.RemoveVocabulary(chosenVocabulary);
+        vocabularies = vocabService.GetVocabularies(); // Refresh the list after deletion
+    }
 }
