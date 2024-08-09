@@ -17,8 +17,6 @@ namespace ElGatoConBotas.Database
         {
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-        }
+    
     }
 }

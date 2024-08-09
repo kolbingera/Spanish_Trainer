@@ -1,11 +1,9 @@
-﻿using ElGatoConBotas.Database;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Extensions.Logging;
 using MudBlazor.Services;
+using ElGatoConBotas.Database;
+using ElGatoConBotas.Domain.Service;
 using ElGatoConBotas.Domain.Interfaces;
-using ElGatoConBotas.Domain.Entities;
-using ElGatoConBotas.Services;
-
-
+using Microsoft.EntityFrameworkCore;
 
 namespace ElGatoConBotas
 {
@@ -20,23 +18,17 @@ namespace ElGatoConBotas
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 });
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:8080") });
-            builder.Services.AddMauiBlazorWebView();
-            builder.Services.AddMudServices();
+            // Add DbContext with SQLite connection string
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlite("Data Source=C:\\Users\\kolbingera\\Desktop\\Spanish_Trainer\\ElGatoConBotas\\ElGatoConBotas\\wwwroot\\db\\SpanishVocabDb.db"));
-            builder.Services.AddScoped<IVocabService, VocabServices>();
-            var app = builder.Build();
-            // Migrate Database
-            using (var scope = app.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
-                var dbContext = services.GetRequiredService<AppDbContext>();
-                dbContext.Database.Migrate();
-            }
 
+            builder.Services.AddScoped<IVocabService, VocabService>();
+            builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddMudServices();
 
 #if DEBUG
+            builder.Services.AddBlazorWebViewDeveloperTools();
+    		builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
