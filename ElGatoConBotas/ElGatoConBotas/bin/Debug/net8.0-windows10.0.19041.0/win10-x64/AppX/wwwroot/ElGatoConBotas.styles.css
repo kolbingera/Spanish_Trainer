@@ -52,6 +52,24 @@
         background-color: #DDD;
     }
 /* /Components/Layout/MainLayout.razor.rz.scp.css */
+
+
+
+
+
+.links[b-ihdfyfvdi7]{
+    color:black;
+    padding-top:5px;
+   
+}
+
+
+.links:hover[b-ihdfyfvdi7]{
+    color: gray;
+   
+}
+
+
 .page[b-ihdfyfvdi7] {
     position: relative;
     display: flex;
@@ -244,4 +262,10 @@ main[b-ihdfyfvdi7] {
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+}
+/* /Components/Pages/Dictionary.razor.rz.scp.css */
+.selected-row[b-407fpvxnr5] {
+    background-color: #f5f5f5; 
+    font-weight: bold; 
+    color: #007bff; 
 }

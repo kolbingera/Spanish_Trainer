@@ -10,7 +10,7 @@
 <h3>Dictionary</h3>
 <h1>These are all the words in the database:</h1>
 
-<MudTable Items="vocabularies" Hover="true" Bordered="true" Striped="true">
+<MudTable Items="vocabularies" Hover="true" Bordered="true" Striped="true" OnRowClick="@(args =>RowClickEvent(args))">
     <HeaderContent>
         <MudTh Style="width:40px">Id</MudTh>
         <MudTh>Spanish</MudTh>
@@ -19,22 +19,26 @@
     </HeaderContent>
 
     <RowTemplate Context="vocabulary">
-        <MudTd DataLabel="Id">@vocabulary.Id</MudTd>
-        <MudTd DataLabel="Spanish">@vocabulary.Spanish_Expression</MudTd>
-        <MudTd DataLabel="German">@vocabulary.German_Expression</MudTd>
-        <MudTd DataLabel="Actions">
-            <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="() => DeleteEntry(vocabulary)">Delete</MudButton>
-        </MudTd>
+        <MudTr Class="@GetRowClass(vocabulary)">
+            <MudTd DataLabel="Id">@vocabulary.Id</MudTd>
+            <MudTd DataLabel="Spanish">@vocabulary.Spanish_Expression</MudTd>
+            <MudTd DataLabel="German">@vocabulary.German_Expression</MudTd>
+            <MudTd DataLabel="Actions">
+                <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="() => DeleteEntry(vocabulary)">Delete</MudButton>
+            </MudTd>
+        </MudTr>
     </RowTemplate>
 </MudTable>
 
 <MudDialogProvider />
+
 <MudButton @onclick="OpenDialogAsync" Variant="Variant.Filled" Color="Color.Primary">
     Edit Entry
 </MudButton>
 
 @code {
     private List<Vocabulary> vocabularies;
+    private Vocabulary selectedVocabulary;
 
     protected override void OnInitialized()
     {
@@ -59,5 +63,16 @@
     {
         vocabService.RemoveVocabulary(chosenVocabulary);
         vocabularies = vocabService.GetVocabularies(); // Refresh the list after deletion
+    }
+
+    // Ensure the event handler matches the expected signature
+    private void RowClickEvent(TableRowClickEventArgs<Vocabulary> tableRowClickEventArgs)
+    {
+        selectedVocabulary = tableRowClickEventArgs.Item;
+    }
+
+    private string GetRowClass(Vocabulary vocabulary)
+    {
+        return vocabulary == selectedVocabulary ? "selected-row" : "";
     }
 }

@@ -1,3 +1,21 @@
+
+
+
+
+
+.links{
+    color:black;
+    padding-top:5px;
+   
+}
+
+
+.links:hover{
+    color: gray;
+   
+}
+
+
 .page {
     position: relative;
     display: flex;

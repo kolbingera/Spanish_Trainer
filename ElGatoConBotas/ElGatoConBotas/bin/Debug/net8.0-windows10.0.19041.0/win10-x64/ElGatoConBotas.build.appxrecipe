@@ -580,6 +580,9 @@
     <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\Components\Layout\NavMenu.razor.css">
       <PackagePath>Components\Layout\NavMenu.razor.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolbingera\Desktop\Spanish_Trainer\ElGatoConBotas\ElGatoConBotas\Components\Pages\Dictionary.razor.css">
+      <PackagePath>Components\Pages\Dictionary.razor.css</PackagePath>
+    </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Users\kolbingera\.nuget\packages\microsoft.windowsappsdk\1.5.240607001\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix">
